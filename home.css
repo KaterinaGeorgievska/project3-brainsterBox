@@ -47,7 +47,8 @@
 .hidden-list ul li {
 	list-style-type: none;
 	border-bottom: 1px solid black;
-	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	font-size: 18px;
 
 }
@@ -487,6 +488,9 @@
 		height: 45vh;
 	}
 
+	.hidden-list ul {
+		padding-left: 0;
+	}
 }
 
 @media screen and (max-width: 992px){

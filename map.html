@@ -4,6 +4,12 @@
 	<title>Feedback Map</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <share button> -->
+	<meta property="og:url"           content="https://brainsterboxproject.herokuapp.com/map.html" />
+  	<meta property="og:type"          content="website" />
+  	<meta property="og:title"         content="Feedback Map" />
+  	<meta property="og:description"   content="Твојата лична кутија со ресурси и алатки за креативна колаборација и откривање на потенцијалот во твојот тим или организација" />
+  	<meta property="og:image"         content="Трет Проект\BrainsterBox - текст и слики\3. Лидерство\8.png" />
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -108,7 +114,7 @@
 				<p class="game-text">Ова е вежбa за давање фидбек која ги охрабрува учесниците да дадат јасен и специфичен фидбек, особено кога работат во проектни тимови, Тимот ги мапира врските помеѓу поединците, а потоа користи специфични точки на интеракција за да поттикне фидбек.</p>
 			</div>
 			<div class="col-md-1 col-md-offset-1 col-sm-1 col-sm-offset-1 text-center share-box">
-				<img class="img-responsive share-img" src="C:\Users\Katerina\Desktop\Braister academy\predizvici\Project3\Трет Проект\share.jpg">
+				<img class="img-responsive share-img" src="Трет Проект\share.jpg">
 				<h4 class="share-text">SHARE</h4>
 			</div>
 		</div>
@@ -184,9 +190,6 @@
 					<p>На таблата запишете ги имињата на секој член. Имињата треба да се расфрлани наоколу, со простор меѓу нив.
 					</p>	
 					</div>
-					<!-- <div class="col-md-4 text-center">
-						<img class="step-pic" src="C:\Users\Katerina\Desktop\Braister academy\predizvici\Project3\Трет Проект\Steps икони\9.png">
-					</div> -->
 				</div>
 				<hr>
 				<div class="row space-between">
@@ -195,9 +198,6 @@
 					<p>Разговарајте со тимот која е најкорисната  временска рамка за оваа вежба (на пример, 3, 6 или 9 месеци), врз основа на тоа колку долго тимот работел заедно и колку неодамна си имаат дадено фидбек. Откако ќе одлучите, напишете временска рамка на врвот на хартијата / таблата. 
 					</p>	
 					</div>
-					<!-- <div class="col-md-4 text-center">
-						<img class="step-pic" src="C:\Users\Katerina\Desktop\Braister academy\predizvici\Project3\Трет Проект\Steps икони\5.png">
-					</div> -->
 				</div>
 				<hr>
 				<div class="row space-between">
@@ -209,7 +209,7 @@
 					</p>	
 					</div>
 					<div class="col-md-4 text-center">
-						<img class="step-pic" src="C:\Users\Katerina\Desktop\Braister academy\predizvici\Project3\Трет Проект\Steps икони\3.png">
+						<img class="step-pic" src="Трет Проект\Steps икони\3.png">
 					</div>
 				</div>
 				<hr>
@@ -219,9 +219,6 @@
 					<p>Продолжете се додека листот не се исполни со линии кои симболизираат врски. Побарајте од поединците да заокружат три специфични точки на интеракција за кои би сакале да дадат фидбек.
 					</p>	
 					</div>
-					<!-- <div class="col-md-4 text-center">
-						<img class="step-pic" src="C:\Users\Katerina\Desktop\Braister academy\predizvici\Project3\Трет Проект\Steps икони\7.png">
-					</div> -->
 				</div>
 				<hr>
 				<div class="row space-between">
@@ -231,7 +228,7 @@
 					</p>	
 					</div>
 					<div class="col-md-4 text-center">
-						<img class="step-pic" src="C:\Users\Katerina\Desktop\Braister academy\predizvici\Project3\Трет Проект\Steps икони\10.png">
+						<img class="step-pic" src="Трет Проект\Steps икони\10.png">
 					</div>
 				</div>
 			</div>
@@ -249,7 +246,7 @@
 
 	<div class="container mg-10">
 		<div class="col-md-3">
-			<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+			<iframe id="share" src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fbrainsterboxproject.herokuapp.com%2Fmap.html&layout=button&size=large&mobile_iframe=true&width=73&height=28&appId" width="73" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 			<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
 		</div>
 	</div>
@@ -380,6 +377,14 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <script id="dsq-count-scr" src="//https-brainsterboxproject-herokuapp-com-home-html.disqus.com/count.js" async></script>
+
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
 
 </body>

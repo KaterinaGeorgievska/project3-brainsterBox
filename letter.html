@@ -4,6 +4,12 @@
 	<title>Letter to Myself</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <share button> -->
+	<meta property="og:url"           content="https://brainsterboxproject.herokuapp.com/letter.html" />
+  	<meta property="og:type"          content="website" />
+  	<meta property="og:title"         content="Letter to Myself" />
+  	<meta property="og:description"   content="Твојата лична кутија со ресурси и алатки за креативна колаборација и откривање на потенцијалот во твојот тим или организација" />
+  	<meta property="og:image"         content="Трет Проект\BrainsterBox - текст и слики\4. Акции\7.png" />
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -108,7 +114,7 @@
 				<p class="game-text">Целта на оваа вежба е да ги поддржи учесниците во примена на нивните согледувања и учења, со пишување на писмо и испраќање до нивната идна личност. Тие можат да ги дефинираат клучните дејствија кои би сакале да ги преземат во иднина и да ги изразат своите причини зошто е потребно да се случи таа промена.</p>
 			</div>
 			<div class="col-md-1 col-md-offset-1 col-sm-1 col-sm-offset-1 text-center share-box">
-				<img class="img-responsive share-img" src="C:\Users\Katerina\Desktop\Braister academy\predizvici\Project3\Трет Проект\share.jpg">
+				<img class="img-responsive share-img" src="Трет Проект\share.jpg">
 				<h4 class="share-text">SHARE</h4>
 			</div>
 		</div>
@@ -177,9 +183,6 @@
 					Кажете им дека ќе им ја испратите картичката / писмото за X број на месеци, и дека тие треба да го земат предвид тоа кога ги пишуваат. Можете да ја дефинирате временската рамка со групата.
 					</p>	
 					</div>
-					<!-- <div class="col-md-4 text-center">
-						<img class="step-pic" src="C:\Users\Katerina\Desktop\Braister academy\predizvici\Project3\Трет Проект\Steps икони\6.png">
-					</div> -->
 				</div>
 				<hr>
 				<div class="row space-between">
@@ -196,7 +199,7 @@
 					</p>	
 					</div>
 					<div class="col-md-4 text-center">
-						<img class="step-pic" src="C:\Users\Katerina\Desktop\Braister academy\predizvici\Project3\Трет Проект\Steps икони\5.png">
+						<img class="step-pic" src="Трет Проект\Steps икони\5.png">
 					</div>
 				</div>
 				<hr>
@@ -206,9 +209,6 @@
 					<p>Соберете ги картичките / писмата, ставете ги на безбедно место и испратете ги на договорениот датум. 
 					</p>	
 					</div>
-					<!-- <div class="col-md-4 text-center">
-						<img class="step-pic" src="C:\Users\Katerina\Desktop\Braister academy\predizvici\Project3\Трет Проект\Steps икони\5.png">
-					</div> -->
 				</div>
 				<hr>
 			</div>
@@ -226,7 +226,7 @@
 
 	<div class="container mg-10">
 		<div class="col-md-3">
-			<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+			<iframe id="share" src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fbrainsterboxproject.herokuapp.com%2Fletter.html&layout=button&size=large&mobile_iframe=true&width=73&height=28&appId" width="73" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 			<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
 		</div>
 	</div>
@@ -357,6 +357,14 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <script id="dsq-count-scr" src="//https-brainsterboxproject-herokuapp-com-home-html.disqus.com/count.js" async></script>
+
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
 
 </body>
