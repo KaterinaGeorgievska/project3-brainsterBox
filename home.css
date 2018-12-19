@@ -535,5 +535,67 @@
 
 }
 
+@media screen and (max-width: 320px){
+	.button-category button {
+		font-size: 11px;
+	}
+
+	.card-main {
+		padding-left: 15px;
+	}
+
+	.card-border {
+		height: 45vh;
+	}
+
+	.share-box {
+		display: none;
+	}
+
+	.mobile-hide {
+		display: none;
+	}
+
+	.mobile-center {
+		text-align: center;
+		padding-left: 20px;
+	}
+
+	.mobile-center i {
+		text-align: center;
+	}
+
+	.mobile-center p {
+		text-align: center;
+	}
+
+	.read-more {
+		padding: 5px;
+		font-size: 12px;
+	}
+
+	.card-main {
+		padding-right: 5px;
+		margin-right: 4px;
+		padding-left: 5px;
+	}
+
+	.logo-text {
+		font-size: 18px;
+		padding-left: 25px;
+		padding-top: 5px;
+	}
+
+	.logo {
+		width: 24px;
+		height: auto;
+	}
+
+	.toggle-click {
+		font-size: 16px;
+	}
+
+}
+
 
 
